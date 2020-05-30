@@ -1,3 +1,5 @@
+# mAP 39.1
+
 cudnn_benchmark = True
 # model settings
 norm_cfg = dict(type='SyncBN', momentum=0.01, eps=1e-3, requires_grad=True)

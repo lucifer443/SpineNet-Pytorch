@@ -70,6 +70,7 @@ More usages can reference [mmdetection documentation](https://mmdetection.readth
 
 ## Update log
 
+- [2020-05-30] Add SpineNet-49S results.
 - [2020-05-13] Update codes and results.
 - [2020-05-02] Create this repository.
 

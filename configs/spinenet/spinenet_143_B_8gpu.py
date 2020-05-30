@@ -1,6 +1,6 @@
 cudnn_benchmark = True
 # model settings
-norm_cfg = dict(type='BN', momentum=0.01, eps=1e-3, requires_grad=True)
+norm_cfg = dict(type='SyncBN', momentum=0.01, eps=1e-3, requires_grad=True)
 model = dict(
     type='RetinaNet',
     backbone=dict(
