@@ -10,7 +10,7 @@ It is based on the
 
 | Variant      | mAP  | Params | FLOPs   | mAP in paper | Params in paper | FLOPs in paper |
 | ------------ | ---- | ------ | ------- | ------------ | --------------- | -------------- |
-| SpineNet-49S | TBD  | 11.15M | 30.04B  | 39.9         | 12.0M           | 33.8B          |
+| SpineNet-49S | 39.1 | 11.15M | 30.04B  | 39.9         | 12.0M           | 33.8B          |
 | SpineNet-49  | 42.7 | 28.31M | 83.7B   | 42.8         | 28.5M           | 85.4B          |
 | SpineNet-96  | ——   | 42.74M | 261.35B | 47.1         | 43.0M           | 265.4B         |
 | SpineNet-143 | ——   | ——     | ——      | 48.1         | 66.9M           | 524.4B         |

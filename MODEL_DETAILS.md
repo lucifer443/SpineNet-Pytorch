@@ -9,7 +9,7 @@ In paper SpineNet was trained with three protocols. I only trained with protocol
 
 | Variant      | my code(B) | paper(A) | paper(B) | paper(C) |
 | ------------ | ---------- | -------- | -------- | -------- |
-| SpineNet-49S | TBD        | ——       | 39.9     | 41.5     |
+| SpineNet-49S | 39.1       | ——       | 39.9     | 41.5     |
 | SpineNet-49  | 42.7       | 40.8     | 42.8     | 44.3     |
 
 ### Details
@@ -28,6 +28,21 @@ In paper SpineNet was trained with three protocols. I only trained with protocol
      Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.370
      Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.631
      Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.751
+    ```
+- SpineNet-49S
+    ```
+     Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.391
+     Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.587
+     Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.422
+     Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.202
+     Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.425
+     Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.563
+     Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.323
+     Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.514
+     Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.546
+     Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.327
+     Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.596
+     Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.724
     ```
 
 
